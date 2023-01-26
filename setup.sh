@@ -6,6 +6,7 @@ echo "installing x11-repo for x"
 pkg install x11-repo
 echo "installing pkges for desktop"
 pkg install qterminal i3 i3status dmenu feh git neovim tigervnc caja
+git clone https://github.com/subhasishlak123/termux-disktop
 echo "going to termux-disktop"
 cd ~/termux-disktop/
 echo "created  .config"
