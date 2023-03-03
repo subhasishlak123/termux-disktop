@@ -1,9 +1,9 @@
 echo "updating . . ."
-apk update
+pkg update -y
 echo "upgradeing . . ."
-apk upgrade
+Pkg upgrade -y
 echo "installing pkges for desktop"
-apk add qterminal i3 i3status dmenu feh git neovim tigervnc caja
+pkg install qterminal i3 i3status dmenu feh git neovim tigervnc caja
 git clone https://github.com/subhasishlak123/termux-disktop
 echo "going to termux-disktop"
 cd 
